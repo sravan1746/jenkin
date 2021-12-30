@@ -6,7 +6,7 @@ pipe line {
               steps {
                   echo 'Im the ruler'
                }
-           }
+           }      
        stage('tester') {
            steps {
                echo'Im the king'
@@ -18,7 +18,7 @@ pipe line {
            }
        }
        stage('release') {
-          steps{
+          steps {
               echo 'Im the winner'
             }
        }
